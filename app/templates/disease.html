@@ -1,0 +1,49 @@
+{% extends 'layout.html' %} {% block body %}
+
+
+<style>
+  html body {
+    background-color: rgb(206, 206, 228);
+  }
+</style>
+<br /><br />
+  <h2 style="text-align: center; margin: 0px; color: black">
+    <b>Find out which disease has been caught by your plant</b>
+  </h2>
+  <br />
+  <br>
+
+<div>
+
+  <form  method=post enctype=multipart/form-data class="formd">
+
+     <div class="p1">
+      <div class="db1">
+        <h2 class="h4 mb-3 font-weight-normal"><b>Please Upload The Image</b></h2>
+      <input type="file" name="file" class="form-control-file" id="inputfile" onchange="preview_image(event)" style="font-weight: bold;">
+       </div>
+      <div class="db2">
+        <img id="output-image" class="rounded mx-auto d-block" style="height: 80%;width: 50%; border: none;box-shadow: none;"
+        src="{{ url_for('static', filename='images/ani.gif') }}"/>
+      </div>
+     </div>
+     <div class="p2">
+      <button type="submit" class="pred">Predict</button>
+     </div>
+  </form>
+  
+</div>
+
+<script type="text/javascript">
+  function preview_image(event) {
+    var reader = new FileReader();
+    reader.onload = function () {
+      var output = document.getElementById('output-image')
+      output.src = reader.result;
+    }
+    reader.readAsDataURL(event.target.files[0]);
+  }
+</script>
+
+</div>
+{% endblock %}
