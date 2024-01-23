@@ -1,0 +1,127 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- banner -->
+<section class="banner_w3lspvt" id="home">
+	<div class="csslider infinity" id="slider1">
+	
+				<div id="#box" class="wrapper">
+						<div class="box11">
+							<div class="conn">
+							<div class="b1">
+									<div class="texty">
+										<h6>Oxygen Plant</h6>
+										<h1>KEEP YOUR</h1>
+									<h1>PLANTS HEALTHY</h1>
+									<p>Plants Reduce Stress Levels And Boost Your Mood Making Them Perfect For Your Home And Your Work Space, Too. A Beautiful Plant Is Like Having A Friend Around The House.
+									</p>
+									</div>
+									<a href="#ser">
+										<button class="see">See More</button>
+									</a>
+								</div>
+								<div class="b2">
+									<img src="{{ url_for('static', filename='images/pot.png') }}" />
+								</div>
+							</div>
+						</div>
+							
+						</div>
+					
+				</div>
+	</div>
+	
+</section>
+<!-- //banner -->
+
+<!-- core values -->
+<section>
+	<div class="box22">
+
+		<h1> About Us</h1>
+		<div class="container ">
+			
+			<div class="content">
+				<div class="col-lg-6 core-left">
+					<img src="{{ url_for('static', filename='images/ab.gif') }}" class="img-fluid" alt="" />
+				</div>
+				<div class="ab">
+					<h2>Welcome to Hariyali, where innovation meets agriculture</h2>
+					<p>Our team is dedicated to revolutionizing crop health management through cutting-edge services. We employ advanced machine learning and deep learning technologies to assist you in navigating the entire farming process. Make well-informed decisions by analyzing local demographics, understanding crop-affecting factors, and maintaining crop health for better yields.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //core values -->
+
+<!-- Products & Services -->
+<section class="blog py-5">
+	<div class="container py-md-5" id="ser">
+		<h1> Our Services</h1>
+		<div class="services">
+			<div class="mw">
+				<div class="simg">
+					<img src="{{ url_for('static', filename='images/crop.gif') }}" class="img-fluid" alt="" />
+				</div>
+				
+					<div class="blog-info">
+
+						<h4>Crop</h4>
+
+						<p> Suggests the most suitable crops to be grown based on the prevailing environmental and climatic conditions.</p>
+							<a href="{{ url_for('crop_recommend') }}">
+								<button class="seee">Click Here</button>
+							</a>
+					</div>
+			</div>
+			<div class="mw">
+				 <div class="simg">
+					<img src="{{ url_for('static', filename='images/fert.gif') }}" class="img-fluid" alt="" />
+				 </div>
+		
+					<div class="blog-info">
+						<h4>Fertilizer</h4>
+						<p class="sp">Advises on the ideal fertilizer for a specific soil and recommends a compatible crop for better productivity.</p>
+							<a href="{{ url_for('fertilizer_recommendation') }}">
+								<button class="seee">Click Here</button>
+							</a>
+					</div>
+			</div>
+			<div class="mw">
+
+				<div class="simg">
+					<img src="{{ url_for('static', filename='images/dis.gif') }}" class="img-fluid" alt="">
+				</div>
+
+				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
+			
+					<div class="blog-info">
+						<h4>Crop Disease</h4>
+						<p>Predicts crop name and diseases, identify causes and provides effective solutions for curing them.</p>
+						<div class="ch"><a href="{{ url_for('disease_prediction') }}">
+							<button class="seee">Click Here</button>
+						</a></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //Products & Services -->
+
+
+<!-- Creating custom grid and hover effect
+<section>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="images/s2.jpg" alt="">
+        <div class="overlay">
+           <h2>Hover effect 1</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+</div> -->
+
+</html>
+
+{% endblock %}
