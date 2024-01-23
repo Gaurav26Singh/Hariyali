@@ -26,7 +26,31 @@ Prevent and manage crop diseases effectively with our predictive analytics featu
 > Supported crops - `Apple`, `Blueberry`, `Cherry`, `Corn`, `Grape`, `Pepper`, `Orange`, `Peach`, `Potato`, `Soybean`, `Strawberry`, `Tomato`, `Squash`, `Raspberry`
 
 ## 🗃️Tech Stack
+- `Python`
+- `Flask`
+- `HTML`
+- `CSS`
+- `Bootstrap`
+- `Javascript`
+- `Numpy`
+- `Pandas`
+- `Scikit-learn`
+- `Pytorch`
+- `Matplotlib`
+- `Seaborn`
 
+## 🏗️Build it locally
+- Before cloning the project, make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
+- Clone the complete project with `git clone https://github.com/Gaurav26Singh/Hariyali` or just download the code and unzip it.
+- Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block.
+  
+  ```
+  conda create -n hariyali python=3.7.8
+  conda activate hariyali
+  pip install -r requirements.txt
+  ```
+- And finally run the project with `python app.py`.
+- Open the localhost url provided after running `app.py` and you are good to go.
 
 ## 🚝Future scope
 Our commitment to innovation and sustainable farming practices drives the future evolution of Hariyali. Let's explore the exciting possibilities that lie ahead:
@@ -55,4 +79,12 @@ Foster a sense of community and knowledge-sharing among farmers. Hariyali will i
 ### 📌<b>Crop disease prediction</b><br>
   <img src="app/static/images/disease_pred.jpg">
 
+## 🎃Join us on this Exciting Journey!
+As Hariyali unfolds its future, we invite you to be a part of this exciting journey towards a technologically empowered and sustainable agricultural sector. Your feedback, suggestions, and experiences are invaluable as we strive to shape the future of farming together. Thank you for choosing Hariyali - cultivating success through innovation!
+<hr>
 
+```javascript
+if (youEnjoyed) {
+    starThisRepository();
+}
+```
