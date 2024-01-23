@@ -25,11 +25,23 @@ Prevent and manage crop diseases effectively with our predictive analytics featu
 
 ## 🚝Future scope
 Our commitment to innovation and sustainable farming practices drives the future evolution of Hariyali. Let's explore the exciting possibilities that lie ahead:
-1. Enhanced Weather Forecasting<br>
+- <b>Enhanced Weather Forecasting</b><br>
 Empower farmers with accurate and timely weather forecasts tailored to their specific locations. Stay ahead of changing weather patterns, enabling proactive decision-making to mitigate risks and optimize farming practices.
 
-4. Market Trends Analysis<br>
+- <b>Market Trends Analysis</b><br>
 Gain access to in-depth market trends analysis tools, helping farmers make strategic decisions based on real-time market dynamics. This feature aims to provide insights into pricing trends, demand patterns, and potential market opportunities.
 
-5. Collaborative Tools for Farmers<br>
+- <b>Collaborative Tools for Farmers</b><br>
 Foster a sense of community and knowledge-sharing among farmers. Hariyali will introduce collaborative tools that enable farmers to connect, share insights, and learn from each other's experiences. This collaborative platform aims to create a supportive ecosystem for agricultural success.
+
+## 🖼️Application Images
+- Landing page
+  ![image]()
+- Services
+  ![image]()
+- Crop recommendation system
+  ![image]()
+- Fertilizer recommendation
+  ![image]()
+- Crop disease prediction
+  ![image]()
