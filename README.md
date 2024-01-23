@@ -35,8 +35,8 @@ Gain access to in-depth market trends analysis tools, helping farmers make strat
 Foster a sense of community and knowledge-sharing among farmers. Hariyali will introduce collaborative tools that enable farmers to connect, share insights, and learn from each other's experiences. This collaborative platform aims to create a supportive ecosystem for agricultural success.
 
 ## 🖼️Application Images
-- Landing page
-  ![image]()
+### 📌<b>Landing page</b><br>
+  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/landing_page.jpg)
 - Services
   ![image]()
 - Crop recommendation system
