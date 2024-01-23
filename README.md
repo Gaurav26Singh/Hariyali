@@ -37,11 +37,13 @@ Foster a sense of community and knowledge-sharing among farmers. Hariyali will i
 ## 🖼️Application Images
 ### 📌<b>Landing page</b><br>
   ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/landing_page.jpg)
-- Services
-  ![image]()
-- Crop recommendation system
-  ![image]()
-- Fertilizer recommendation
-  ![image]()
-- Crop disease prediction
-  ![image]()
+### 📌<b>Services</b><br>
+  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/services.jpg)
+### 📌<b>Crop recommendation system</b><br>
+  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/crop_pred.jpg)
+### 📌<b>Fertilizer recommendation</b><br>
+  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/fertilizer.jpg)
+### 📌<b>Crop disease prediction</b><br>
+  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/disease_pred.jpg)
+
+
