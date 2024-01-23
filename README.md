@@ -14,14 +14,19 @@ Our Hariyali app leverages machine learning and deep learning technologies which
 ## 💡Key features
 #### 1️⃣ Crop Recommendation System
 Make informed decisions about crop selection by leveraging our advanced recommendation system. Hariyali analyzes local conditions, climate data, and soil characteristics to suggest the most suitable crops for cultivation. Tailored to the respective conditions, this feature aims to maximize yields and promote sustainable farming practices.
+> The N-P-K (Nitrogen - Phosphorous - Potassium) values to be entered should be in proper ratio. Refer the <a href="https://www.pennington.com/all-products/fertilizer/resources/understanding-fertilizer-labels">website</a> for more information.
+
+> While entering the city name, make sure to enter common cities. Remote cities/towns may not be available in the Weather API from where data like temperature and humidity is fetched.
 
 #### 2️⃣ Fertilizer Recommendation
 Enhance soil fertility and crop health with our intelligent soil-fertilizer recommendation system. Hariyali assesses the specific soil composition, providing personalized suggestions for the best-suited fertilizers. Simultaneously, it recommends compatible crops, ensuring optimal nutrient utilization and promoting efficient farming practices.
 
 #### 3️⃣ Crop Disease Prediction and Management
 Prevent and manage crop diseases effectively with our predictive analytics feature. Hariyali employs machine learning to forecast potential diseases, identify causes, and offer actionable suggestions for effective management. Stay one step ahead, minimize losses, and foster a healthier crop yield.
+> Supported crops - `Apple`, `Blueberry`, `Cherry`, `Corn`, `Grape`, `Pepper`, `Orange`, `Peach`, `Potato`, `Soybean`, `Strawberry`, `Tomato`, `Squash`, `Raspberry`
 
 ## 🗃️Tech Stack
+
 
 ## 🚝Future scope
 Our commitment to innovation and sustainable farming practices drives the future evolution of Hariyali. Let's explore the exciting possibilities that lie ahead:
@@ -36,14 +41,18 @@ Foster a sense of community and knowledge-sharing among farmers. Hariyali will i
 
 ## 🖼️Application Images
 ### 📌<b>Landing page</b><br>
-  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/landing_page.jpg)
+  <img src="app/static/images/landing_page.jpg">
+  
 ### 📌<b>Services</b><br>
-  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/services.jpg)
+  <img src="app/static/images/services.jpg">
+
 ### 📌<b>Crop recommendation system</b><br>
-  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/crop_pred.jpg)
+  <img src="app/static/images/crop_pred.jpg">
+  
 ### 📌<b>Fertilizer recommendation</b><br>
-  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/fertilizer.jpg)
+  <img src="app/static/images/fertilizer.jpg">
+  
 ### 📌<b>Crop disease prediction</b><br>
-  ![image](https://github.com/Shubx10/Hariyali/blob/master/app/static/images/disease_pred.jpg)
+  <img src="app/static/images/disease_pred.jpg">
 
 
