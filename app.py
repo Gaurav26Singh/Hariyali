@@ -259,6 +259,7 @@ def disease_prediction():
             pass
     return render_template('disease.html', title=title)
 
-
+if __name__ == '__main__':
+    app.run(debug=False)
 # ===============================================================================================
 
