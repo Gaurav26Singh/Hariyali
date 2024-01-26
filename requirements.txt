@@ -85,7 +85,7 @@ termcolor
 threadpoolctl
 toml
 toolz
-torch==1.13.1
+torch==2.0.0
 torchvision==0.15.1
 tornado
 typing_extensions
