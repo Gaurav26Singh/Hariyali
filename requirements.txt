@@ -86,7 +86,7 @@ threadpoolctl
 toml
 toolz
 torch==1.13.1
-torchvision==0.14.1
+torchvision==0.15.1
 tornado
 typing_extensions
 tzdata
