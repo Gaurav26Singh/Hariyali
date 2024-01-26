@@ -258,8 +258,5 @@ def disease_prediction():
         except:
             pass
     return render_template('disease.html', title=title)
-
-if __name__ == '__main__':
-    app.run(debug=False)
 # ===============================================================================================
 
