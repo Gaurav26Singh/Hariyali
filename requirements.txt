@@ -75,9 +75,9 @@ smmap==5.0.1
 streamlit==1.7.0
 streamlit-option-menu==0.3.2
 tenacity==8.2.3
-tensorboard==2.11.2
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
+tensorboard
+tensorboard-data-server
+tensorboard-plugin-wit
 tensorflow
 tensorflow-estimator
 tensorflow-intel
