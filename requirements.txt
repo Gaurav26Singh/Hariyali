@@ -85,8 +85,8 @@ termcolor
 threadpoolctl
 toml
 toolz
-pip install torch==1.7.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install torch==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+torch==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 tornado
 typing_extensions
 tzdata
