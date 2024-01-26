@@ -3,7 +3,7 @@ altair==4.2.2
 astor==0.8.1
 astunparse==1.6.3
 attrs==23.2.0
-backports.zoneinfo
+backports.zoneinfo==0.2.1;python_version<"3.9"
 base58==2.1.1
 blinker==1.6.3
 cachetools==5.3.2
