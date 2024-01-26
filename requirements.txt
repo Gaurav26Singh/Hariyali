@@ -3,7 +3,6 @@ altair
 astor
 astunparse
 attrs
-backports.zoneinfo
 base58
 blinker
 cachetools
